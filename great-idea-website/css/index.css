@@ -168,41 +168,38 @@ header, .logo {
 
 }
 
+.contentsection2  {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 
-.contentSection2 {
-
-	display:flex;
-	flex-direction: column;
-	s
-	
 }
 
+ .contentsection2, .Service{
 
- .Service {
-
-	flex-direction: row;
-	justify-items: center;
-	flex-wrap: wrap;
-	width: 200px;
-
+		flex-direction: row;
+		justify-items: center;
+		width: 33%:
 	
 
 }
 
 .Product {
-	flex-direction: row;
-	flex-wrap: wrap;
+	
 
+		flex-direction: row;
+		justify-items: center;
 
 
 }
 
 .Vision {
 
-	flex-direction: row;
+		
+		flex-direction: row;
+		justify-items: center;
 
-
-} */
+}
 
 .Contact {
 
@@ -213,15 +210,15 @@ header, .logo {
 
 }
 
-.contentsection2  {
-	margin: 50px;
-	align-content: center;
-
-}
-
 .Copyright {
 
 	text-align: center;
 
+}
 
+.middle {
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
